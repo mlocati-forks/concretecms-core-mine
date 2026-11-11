@@ -36,7 +36,7 @@ env:
   # The branches and the tags of the source repository to be processed
   # (see the --branch-whitelist and --tag-blacklist options of incremental-git-filterbranch).
   # These values are also read by the "Notify splitter" workflow of the source repository: don't rename or move them
-  BRANCH_WHITELIST: master rx:.+\.x rx:.+-dev rx:release/.*
+  BRANCH_WHITELIST: api-roundtrip-v2
   TAG_BLACKLIST: rx:5\..*
   INCREMENTAL_FILTER_BRANCH_VERSION: 2.2.1
 
