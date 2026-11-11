@@ -37,7 +37,7 @@ env:
   # (see the --branch-whitelist and --tag-blacklist options of incremental-git-filterbranch).
   # These values are also read by the "Notify splitter" workflow of the source repository: don't rename or move them
   BRANCH_WHITELIST: api-roundtrip-v2
-  TAG_BLACKLIST: rx:5\..*
+  TAG_BLACKLIST: rx:.*
   INCREMENTAL_FILTER_BRANCH_VERSION: 2.2.1
 
 jobs:
